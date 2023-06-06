@@ -13,7 +13,7 @@ const Header = () => {
         <h1 className="header-title">Meme Generator</h1>
       </div>
       <div className="header-right">
-        <h3 className="credit">© Aaliyah Montgomery</h3>
+        <h3 className="credit">Aaliyah Montgomery</h3>
         <a
           href="https://github.com/Aaliyah1699/meme-generator"
           target="_blank"
@@ -22,7 +22,7 @@ const Header = () => {
           <FontAwesomeIcon
             icon={faGithub}
             size="lg"
-            style={{ color: "#000000" }}
+            style={{ color: "#ffffff" }}
           />
         </a>
       </div>
