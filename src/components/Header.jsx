@@ -1,11 +1,12 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSquarespace, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const Header = () => {
   return (
     <div className="header-container">
       <div className="header-left">
         <FontAwesomeIcon
-          icon="fa-brands fa-squarespace"
+          icon={faSquarespace}
           size="2xl"
           style={{ color: "#ffffff" }}
         />
@@ -17,12 +18,13 @@ const Header = () => {
           href="https://github.com/Aaliyah1699/meme-generator"
           target="_blank"
           rel="noopener noreferrer"
-        ></a>
-        <FontAwesomeIcon
-          icon="fa-brands fa-github"
-          size="lg"
-          style={{ color: "#000000" }}
-        />
+        >
+          <FontAwesomeIcon
+            icon={faGithub}
+            size="lg"
+            style={{ color: "#000000" }}
+          />
+        </a>
       </div>
     </div>
   );
