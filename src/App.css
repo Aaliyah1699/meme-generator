@@ -1,1 +1,22 @@
-
+/* Header Section */
+.header-container {
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+.header-left {
+  display: flex;
+  padding: 20px;
+}
+.header-title {
+  margin-left: 10px;
+}
+.header-right {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+}
+.credit {
+  margin-right: 10px;
+}
