@@ -4,13 +4,13 @@ const Meme = () => {
       <form className="meme-form">
         <div className="meme-input">
           <input
-            className="top-input"
+            className="input"
             placeholder="#"
             type="text"
             name="top-input"
           />
           <input
-            className="bottom-input"
+            className="input"
             placeholder="#"
             type="text"
             name="bottom-input"
