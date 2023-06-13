@@ -16,6 +16,23 @@ const Meme = () => {
       .then((data) => setAllMemes(data.data.memes));
   }, []);
 
+  function getMemeImage() {
+    const randomNumber = Math.floor(Math.random() * allMemes.length);
+    const url = allMemes[randomNumber].url;
+    setMeme((prevMeme) => ({
+      ...prevMeme,
+      randomImage: url,
+    }));
+  }
+
+  function handleChange(e) {
+    const { name, value } = e.target;
+    setMeme((prevMeme) => ({
+      ...prevMeme,
+      [name]: value,
+    }));
+  }
+
   return (
     <div className="meme-container">
       <form className="meme-form">
