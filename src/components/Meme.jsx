@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import React from "react";
 
 const Meme = () => {
   const [meme, setMeme] = React.useState({
@@ -8,6 +9,12 @@ const Meme = () => {
   });
 
   const [allMemes, setAllMemes] = React.useState([]);
+
+  React.useEffect(() => {
+    fetch("https://api.imgflip.com/get_memes")
+      .then((res) => res.json())
+      .then((data) => setAllMemes(data.data.memes));
+  }, []);
 
   return (
     <div className="meme-container">
