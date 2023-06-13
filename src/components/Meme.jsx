@@ -35,7 +35,7 @@ const Meme = () => {
 
   return (
     <div className="meme-container">
-      <form className="meme-form">
+      <div className="meme-form">
         <div className="meme-input">
           <input
             className="input"
@@ -54,10 +54,8 @@ const Meme = () => {
             onChange={handleChange}
           />
         </div>
-      </form>
-      <button className="meme-btn" type="submit">
-        Get a new meme image 🖼️
-      </button>
+      </div>
+      <button className="meme-btn">Get a new meme image 🖼️</button>
     </div>
   );
 };
