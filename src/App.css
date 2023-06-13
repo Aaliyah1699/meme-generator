@@ -4,6 +4,9 @@
   color: #ffffff;
   display: flex;
   justify-content: space-between;
+  -webkit-box-shadow: 2px 1px 10px 0px rgba(0, 8, 81, 0.71);
+  -moz-box-shadow: 2px 1px 10px 0px rgba(0, 8, 81, 0.71);
+  box-shadow: 2px 1px 10px 0px rgba(0, 8, 81, 0.71);
 }
 .header-left {
   display: flex;
@@ -60,6 +63,9 @@
   letter-spacing: 1.5px;
   cursor: pointer;
   margin-bottom: 2rem;
+  -webkit-box-shadow: 2px 1px 10px 0px rgba(0, 8, 81, 0.71);
+  -moz-box-shadow: 2px 1px 10px 0px rgba(0, 8, 81, 0.71);
+  box-shadow: 2px 1px 10px 0px rgba(0, 8, 81, 0.71);
 }
 .meme {
   position: relative;
