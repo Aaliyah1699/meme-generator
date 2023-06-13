@@ -42,12 +42,16 @@ const Meme = () => {
             placeholder="Top text"
             type="text"
             name="topInput"
+            value={meme.topInput}
+            onChange={handleChange}
           />
           <input
             className="input"
             placeholder="Bottom text"
             type="text"
             name="bottomInput"
+            value={meme.bottomInput}
+            onChange={handleChange}
           />
         </div>
       </form>
