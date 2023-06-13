@@ -1,4 +1,12 @@
+import { useState, useEffect } from "react";
+
 const Meme = () => {
+  const [meme, setMeme] = React.useState({
+    topInput: "",
+    bottomInput: "",
+    randomImage: "http://i.imgflip.com/1bij.jpg",
+  });
+
   return (
     <div className="meme-container">
       <form className="meme-form">
@@ -7,13 +15,13 @@ const Meme = () => {
             className="input"
             placeholder="Top text"
             type="text"
-            name="top-input"
+            name="topInput"
           />
           <input
             className="input"
             placeholder="Bottom text"
             type="text"
-            name="bottom-input"
+            name="bottomInput"
           />
         </div>
       </form>
