@@ -7,6 +7,8 @@ const Meme = () => {
     randomImage: "http://i.imgflip.com/1bij.jpg",
   });
 
+  const [allMemes, setAllMemes] = React.useState([]);
+
   return (
     <div className="meme-container">
       <form className="meme-form">
