@@ -60,8 +60,8 @@ const Meme = () => {
       </button>
       <div className="meme">
         <img src={meme.randomImage} className="meme-image" />
-        <h2 className="meme-text top"></h2>
-        <h2 className="meme-text bottom"></h2>
+        <h2 className="meme-text top">{meme.topInput}</h2>
+        <h2 className="meme-text bottom">{meme.bottomInput}</h2>
       </div>
     </div>
   );
