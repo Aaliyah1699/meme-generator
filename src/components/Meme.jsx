@@ -56,6 +56,11 @@ const Meme = () => {
         </div>
       </div>
       <button className="meme-btn" onClick={getMemeImage}>Get a new meme image 🖼️</button>
+      <div className="meme">
+        <img />
+        <h2 className="meme-text top"></h2>
+        <h2 className="meme-text bottom"></h2>
+      </div>
     </div>
   );
 };
