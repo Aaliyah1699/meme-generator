@@ -68,4 +68,5 @@ const Meme = () => {
     </div>
   );
 };
+
 export default Meme;
